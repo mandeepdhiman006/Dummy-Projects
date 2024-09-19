@@ -1,0 +1,508 @@
+.container-head{
+    padding: 0 95px !important;
+}
+
+#head-nav .logo{
+    height: 42px;
+    width: 155px;
+    margin: 11px 0;
+}
+
+#head-nav .search-box{
+    margin: 11px 0;
+}
+
+#head-nav .search-box i{
+    color: #77777794;
+    font-size: 23px;
+    top: 30%;
+    left: 3%;
+}
+
+#head-nav .search-box input{
+    border-color: #77777780;
+    padding: 11px 0 11px 43px;
+    width: 380px;
+}
+
+#head-nav .app-bx{
+    padding: 25px 0;
+     
+}
+
+#head-nav .app-bx:hover{
+    border-bottom: 3px solid #9f2089;
+}
+
+#head-nav .app-bx:hover i, #head-nav .app-bx:hover h1{
+    color: #9f2089 ;
+}
+#head-nav .downloadbx-show{
+    width: 35%;   
+}
+
+#head-nav .downloadbx-show:hover .hover-bx{
+  display: block;
+}
+
+#head-nav .hover-bx{
+    display: none;
+    width: 23%;
+    box-shadow: 1px 1px 7px 1px #0000001f;
+    left: 44%;
+    z-index: 1;
+    background: #fff;
+}
+
+#head-nav .hover-bx h1{
+    font-size: 15px;
+}
+
+#head-nav .hover-bx .nav-download{
+    background: #000;
+}
+
+#head-nav .hover-bx .nav-download img{
+    height: 100%;
+    width: 100%;
+}
+
+#head-nav .app-bx2{
+    padding: 12px 0px;
+    margin: 10px 0;
+    width: 33%;
+    text-align: center;
+
+}
+
+#head-nav .app-bx i{
+    color: #000000b8;
+    font-size: 18px;
+}
+
+#head-nav .app-bx h1,.app-bx2 a{
+    color: #353543;
+    font-size: 15px;
+}
+
+#head-nav .userbx:hover .sign-bx{
+    display: block;
+}
+
+#head-nav .userbx .sign-bx{
+    display: none;
+    z-index: 1;
+    box-shadow: 1px 3px 7px 1px #0000001f;
+    width: 18%;
+    right: 20px;
+    top: 100%;
+}
+
+#head-nav .orders-btn a{
+    color: #000;
+    font-size: 17px;
+}
+
+#head-nav .orders-btn a i{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+#head-nav .userbx .user-sign{
+    border-color: #00000070 !important;
+}
+
+#head-nav .userbx .user-sign h1{
+  font-size: 18px;
+}
+
+#head-nav .userbx .user-sign p{
+    font-size: 12px;
+    color: #616173;
+}
+
+#head-nav .userbx .user-sign a{
+    color: #fff;
+    background: #9f2089;
+    padding: 13px 77px;
+}
+
+#head-nav .profile i ,#head-nav .profile2 i{
+    font-size: 18px;
+    padding: 0 14px;
+    color: #353543;
+}
+
+#head-nav .userbx{
+    padding: 12px 0;
+}
+
+#head-nav .userbx:hover{
+    border-bottom: 3px solid #9f2089;
+}
+
+#head-nav .profile h1,#head-nav .profile2 h1{
+    font-size: 16px;
+    color: #353543;
+}
+
+#head-nav .profile2 h1{
+    padding: 0 13px;
+}
+#head-nav .categories:hover .category-hoverbx{
+    display: block;
+}
+
+#head-nav .categories .category-hoverbx{
+    display: none;
+    width: 99%;
+    top: 100%;
+    left: 0;
+    box-shadow: 1px 3px 7px 1px #0000001f;
+}
+
+#head-nav .category-hoverbx .cat-option h1,#head-nav .category-hoverbx .cat-option2 h1{
+    color: #9f2089;
+    font-size: 16px;
+}
+
+#head-nav .category-hoverbx .cat-option2{
+    background:#f8f8ff;
+}
+
+#head-nav .category-hoverbx .cat-option .cat-option-btns a,#head-nav .category-hoverbx .cat-option2 .cat-option-btns a{
+    color: #616173;
+    font-size: 16px;
+}
+
+#head-nav .categories .cat-name a{
+   color: #353543;
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+#head-nav .categories .cat-name:hover a{
+    color:#9f2089;
+    border-bottom: 3px solid #9f2089;
+}
+
+#banner .download-app{
+    background-color: #f8f8ff; 
+}
+
+#banner .download-app h1{
+    font-size: 44px;
+}
+
+#banner .benefits-bx{
+    padding: 0 45px 0 0;
+}
+
+#banner .benefits-bx h1{
+    color: #000;
+    font-size: 16px;
+}
+
+#banner .download-btn{
+    background-color: #9f2089;
+    padding: 10px 25px;
+    width: 65%;
+}
+
+#banner .download-btn h1{
+    color: #fff;
+    font-size: 17px;
+}
+
+#top-cat .top-text h1{
+    font-size: 35px;
+}
+
+#top-cat .top-banner{
+   background-image: url("../image/cat-banner.webp");
+   background-size: cover;
+}
+
+#top-cat .kidstore{
+    margin-top: 150px;
+}
+
+#essentials .essential{
+    background-image: url("../image/essential.webp");
+    background-size: cover;
+}
+
+#essentials .newstyle{
+    background-image: url("../image/newstyle.webp");
+    background-size: cover;
+}
+
+#essentials .view-bx{
+    padding: 200px 150px 0 60px;
+}
+
+#essentials .ese-btns{
+    padding: 0 25px;
+}
+
+#seller .sellerbanner{
+    height: 545px;
+    background-image: url("../image/sellerbanner.webp");
+    background-size: cover;
+}
+
+#seller .seller-txt h2{
+  color: #5585f8;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+#seller .seller-txt h1{
+    color: #9f2089;
+    font-weight: 700;
+    font-size: 47px;
+}
+
+#seller .play-btn{
+    height: 50px;
+    width: 185px;
+    padding: 8px 25px;
+    background: #000;
+}
+
+#seller .play-btn img{
+    height: 100%;
+    width: 100%;
+}
+
+#supply .supplybanner{
+    background-image: url("../image/supplybanner.webp");
+    background-size: cover;
+}
+
+#supply .supplyhead h1{
+   color: #fff;
+   font-size: 32px;
+}
+
+#supply .supplyhead p{
+    color: #fff;
+    font-size: 16px;    
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+#supply .supply-benefits i{
+    color: #06a759;
+    font-size: 22px;
+}
+
+#supply .supply-benefits h1{
+    font-size: 16px;
+}
+
+#supply .sign-btn a{
+    color: #9f2089;
+    font-size: 18px;
+    padding: 10px 28px;
+}
+
+#products .product-head h1{
+    font-size: 32px;
+}
+
+#products .rel-btn button{
+  color: #777;
+  font-size: 15px;
+}
+
+#products .rel-btn button span{
+    color: #000;
+    font-size: 17px;
+    margin-right: 115px;
+}
+
+#products .rel-item{
+    color: #616173;
+    font-size: 16px;
+    padding: 15px;
+}
+
+#products .rel-shadow{
+    box-shadow: 0px 1px 3px 4px #77778814;
+}
+
+#products .rel-item-bck{
+    background-color: #ffe7fb;
+}
+#products .rel-item-bck:hover{
+    background-color: #f8f9fa;
+}
+
+#products .filter-bx .filter-head h1{
+   font-size: 18px;   
+   color: #000;
+}
+
+#products .filter-bx .filter-head p{
+    color: #777;
+    font-size: 12px;
+}
+
+#products .filter-bx .cat-btn{
+   border:none;
+   font-size: 18px;
+}
+
+#products .filter-bx .dropdown-toggle::after{
+    position: absolute;
+    right: 0;
+    top: 48%;
+}
+
+#products .filter-bx .search-icon{
+    top: 24%;
+    left: 5%;
+    color: #7777776b;
+}
+
+#products .filter-bx .search-input{
+    border:1px solid #00000061;
+}
+
+#products .filter-bx .checkbox input[type="checkbox"]{
+    width: 18px;
+    height: 15px;
+    accent-color: #9f2089;
+}
+
+#products .filter-bx .gender-btn{
+    padding: 8px 16px;
+    color: #616173;
+    font-size: 16px;
+    border: 1px solid #00000038;
+}
+
+#products .filter-bx .show-more{
+    color: #9f2089;
+    font-size: 16px;
+}
+
+#products .items .item-img{
+    height: 240px;
+    width: 100%;
+}
+#products .items .item-img img{
+    height: 100%;
+    width: 100%;
+}
+
+#products .items .item-name{
+    color: #777;
+    font-size: 16px;
+}
+
+#products .items .item-dis{
+    color: #038d63;
+    font-size: 16px;
+}
+
+#products .items .item-del{
+    background: #f2f2f2;
+    border-radius: 8px;
+    padding: 3px 11px;
+    color: #0000009e;
+    font-size: 12px;
+}
+
+#products .items .rating{
+    background: #038d63;
+    padding: 3px 8px;
+    width: 24%;
+}
+#products .items .rating h1{
+    font-size: 16px;
+}
+#products .items .rating i{
+  font-size: 10px;
+}
+
+#products .items .review{
+    color: #8b8ba3;
+    font-size:12px;
+}
+
+#footer .container-bg{
+  background: #f8f8ff;
+}
+
+#footer .footer-bx1 h1{
+    font-size: 32px;
+}
+
+#footer .footer-bx1 p{
+    color: #616173;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#footer .footer-bx1 .play-btn2{
+    height: 50px;
+    width: 185px;
+    padding: 8px 25px;
+    background: #000;
+}
+
+#footer .footer-bx1 .play-btn2 img{
+    height: 100%;
+    width: 100%;
+}
+
+#footer .footer-bx2 .links{
+    color: #616173;
+    font-size: 18px;
+}
+
+#footer .footer-bx4 h1,#footer .footer-bx5 h1 {
+    color: #000;
+    font-size: 20px;
+}
+
+#footer .footer-bx4 .social-img{
+    height: 25px;
+    width: 12%;
+}
+
+#footer .footer-bx4 .social-img img{
+    height: 100%;
+    width: 100%;
+}
+
+#footer .footer-bx5 p,#footer .footer-bx5 p a {
+    color: #616173;
+    font-size: 12px;
+}
+
+
+#footer .info-bx h1,#footer .more-bx h1{
+  font-size: 18px;
+}
+
+#footer .info-bx p{
+    font-size: 15px;
+    color: #616173;
+}
+
+#footer .down-meesho a{
+    color: #9f2089;
+    font-size: 20px;
+}
+
+#footer .shopping-btns h1{
+    font-size:16px;
+}
+
+#footer .shopping-btns a{
+    color: #9f2089;
+    font-size: 16px;
+}

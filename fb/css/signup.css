@@ -1,0 +1,220 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+@font-face{
+    font-family: Helvetica;
+    src: url("./font/Helvetica.ttf");
+}
+
+body{
+   font-family: Helvetica;
+}
+
+
+.container-fluid{width: 100%;
+                 float: left;}
+
+.container{
+          width: 1200px;
+          margin: auto;
+}
+
+.row{width: 100%;
+     float: left;
+     display: flex;}
+     
+.col{width: 100%;
+    float: left;}
+
+#sign .bg-color{
+    background: #f0f2f5;
+    height: 700px;
+    padding: 45px 0;
+}
+
+#sign .sign{
+    width: 430px;
+    margin: 45px auto;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 1px 11px 4px #77777714;
+    padding-bottom: 15px;
+}
+
+#sign .head{
+    width: 100%;
+    padding: 10px 15px 15px 15px;
+    border-bottom: 1px solid #77777745;
+}
+
+#sign .head-txt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sign .head-txt h1{
+    color: #000;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+#sign .head-txt i{
+    color: #000000a8;
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+#sign .head p{
+    color: #666;
+    font-size: 15px;
+}
+
+#sign .form{
+    width: 100%;
+}
+
+#sign .name-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 12px 15px;
+}
+
+#sign .name-input input, .email-input input{
+    width: 193px;
+    padding: 12px 12px;
+    border-radius: 5px;
+    background: #f5f6f7;
+    border: none;
+    outline: 1px solid #77777742;
+    font-size: 15px;
+}
+
+#sign .email-input{
+    width: 100%;
+    padding: 0 15px;    
+}
+
+#sign .email-input input{
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+#sign .date{
+    width: 100%;
+    padding: 3px 15px 13px 15px;
+}
+
+#sign .date .date-txt{
+    width: 100%;
+    display:flex;
+    margin-bottom: 5px;
+}
+
+#sign .date .date-txt p{
+    color: #666;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+#sign .date .date-txt i{
+    color: #777;
+    font-size: 12px;
+}
+
+#sign .date .dob{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sign .date .dob select{
+    width: 124px;
+    padding: 9px 5px;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid #77777766;
+}
+
+
+#sign .Gender{
+    width: 100%;
+    padding: 0 15px;
+}
+
+#sign .Gender .Gender-txt{
+    width: 100%;
+    display:flex;
+    margin-bottom: 5px;
+}
+
+#sign .Gender .Gender-txt p{
+    color: #666;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+#sign .Gender .Gender-txt i{
+    color: #777;
+    font-size: 12px;
+}
+
+#sign .gender-option{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sign .gender-option .opt{
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+    padding: 9px 10px;
+    border-radius: 5px;
+    border:  1px solid #77777766;
+}
+
+#sign .gender-option .opt h1{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#sign .about{
+    width: 100%;
+    padding: 10px 15px 0 15px;
+}
+
+#sign .about p{
+    color: #666666e8;
+    font-size: 11px;
+    font-weight: 100;
+    line-height: 15px;
+}
+
+#sign .about p a{
+    color: #385898;
+    text-decoration: none;
+}
+
+#sign .about p a:hover{
+    text-decoration: underline;
+}
+
+#sign .sign-btn{
+    width: 100%;
+    text-align: center;
+    margin:25px 0;
+}
+
+#sign .sign-btn a{
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 65px;
+    border-radius: 5px;
+    background: #00a400;
+    font-size: 18px;
+    font-weight: 600;
+}
+

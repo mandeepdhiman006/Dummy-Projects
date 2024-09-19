@@ -1,0 +1,152 @@
+.container-head{
+    padding: 0 95px !important;
+}
+
+#head-nav .logo{
+    height: 42px;
+    width: 155px;
+    margin: 11px 0;
+}
+
+#head-nav .search-box{
+    margin: 11px 0;
+}
+
+#head-nav .search-box i{
+    color: #77777794;
+    font-size: 23px;
+    top: 30%;
+    left: 3%;
+}
+
+#head-nav .search-box input{
+    border-color: #77777780;
+    padding: 11px 0 11px 43px;
+    width: 380px;
+}
+
+#head-nav .app-bx{
+    padding: 25px 0;
+     
+}
+
+#head-nav .app-bx:hover{
+    border-bottom: 3px solid #9f2089;
+}
+
+#head-nav .app-bx:hover i, #head-nav .app-bx:hover h1{
+    color: #9f2089 ;
+}
+#head-nav .downloadbx-show{
+    width: 35%;   
+}
+
+#head-nav .downloadbx-show:hover .hover-bx{
+  display: block;
+}
+
+#head-nav .hover-bx{
+    display: none;
+    width: 20%;
+    box-shadow: 1px 1px 7px 1px #0000001f;
+    left: 52%;
+    z-index: 1;
+    background: #fff;
+}
+
+#head-nav .hover-bx h1{
+    font-size: 15px;
+}
+
+#head-nav .hover-bx .nav-download{
+    background: #000;
+}
+
+#head-nav .hover-bx .nav-download img{
+    height: 100%;
+    width: 100%;
+}
+
+#head-nav .app-bx2{
+    padding: 12px 0px;
+    margin: 10px 0;
+    width: 33%;
+    text-align: center;
+
+}
+
+#head-nav .app-bx i{
+    color: #000000b8;
+    font-size: 18px;
+}
+
+#head-nav .app-bx h1,.app-bx2 a{
+    color: #353543;
+    font-size: 15px;
+}
+
+
+#sign .bg-color{
+    background: #fdf0e8;
+}
+
+#sign .main-sign-bx{
+    border:1px;
+    border-radius: 10px;
+}
+
+#sign .sign-img{
+    height: 210px;
+    width: 100%;
+}
+
+#sign .sign-img img{
+    height: 100%;
+    width: 100%;
+}
+
+#sign .sign-heading h1{
+    font-size: 18px;
+}
+
+#sign .country p{
+    color: #777;
+    font-size: 12px;
+}
+
+#sign .country-code{
+    width: 27%;
+  border-bottom:2px solid #7777776e;
+}
+
+#sign .country-code h1{
+ font-size: 18px;
+}
+
+#sign .number-bx input{
+    width: 100%;
+    border-bottom: 1px solid #7777776e !important;
+    outline: none;
+    padding: 0 0 2px 0px;
+}
+
+#sign .number-bx input::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#sign .sign-btn a{
+    background: #9f2089;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 123px;
+}
+
+#sign .privacy-bx p{
+ font-size: 12px;
+ color: #777;
+}
+
+#sign .privacy-bx p a{
+    color: #9f2089;
+}
